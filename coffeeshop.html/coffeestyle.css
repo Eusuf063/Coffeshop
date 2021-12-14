@@ -1,0 +1,85 @@
+body{
+    background-color: #dfd9d9;
+}
+.container-fluid{
+    margin: px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Pacifico', cursive;
+    background-color: #110101;
+}
+
+.navbar-brand img{
+    height: 60px;
+    padding-bottom: 15px;
+}
+.navbar-nav li a{
+    font-size: 13pt;
+    color: whitesmoke;
+}
+.nav-link{
+    color:rgb(240, 239, 239);
+}
+.carousel-item{
+    height: 500px;
+    background-image: cover;
+    background-position: center;
+}
+#aboutus, #products, #contactdetail, #footer{
+   padding: 0em;
+    text-align: justify;
+    font-size: normal;
+    color: whitesmoke;
+}
+#products h1{
+    padding-left: 0.5em;
+    color:rgb(240, 239, 239);
+}
+
+#products h5{
+    
+    color: rgb(46, 40, 40);
+}
+#aboutus p{
+
+    line-height: 2;
+    font-size: 14pt;
+}
+#products p{
+    color: rgb(46, 40, 40);
+}
+#contactdetail p{
+    padding-left: 15px;
+    text-align: left;
+}
+
+.icons{
+    text-align: right;
+    
+}
+.fa{
+  background-color: rgb(240, 239, 239);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin: 5px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.iframe{
+    position: relative;
+    width: 50%;
+    padding-bottom: 56.25%;
+}
+.iframe >*{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
